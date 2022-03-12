@@ -1,0 +1,67 @@
+<div class="main">
+    <div class="top-section">
+        <div class="inner">
+            <p class="color-grey font-georgia f-10">PRINCE AKACHI</p>
+            <div class="name-section">
+                <div class="flex-space-between session">
+                    <div class="flex">
+                        <p class="f-12 color-grey font-georgia">Session</p> &nbsp; &nbsp; &nbsp; &nbsp; 
+                        <p class="f-12 color-grey font-georgia">Extra</p>
+                    </div>
+                    <p class="f-25 plus">+</p>
+                </div>
+                <div class="flex-space-between">
+                    <p class="f-61 name font-georgia">Belinda <br/> Christelle</p>
+                    <p class="f-15 color-grey font-georgia top-50">Model</p>
+                </div>
+            </div>
+            <div class="flex-space-between nav-parent">
+                <p class="color-grey font-georgia insta f-15">Instagram</p>
+                <div class="nav-section">
+                    <!-- NAV HERE !!! -->
+                    <nav class="flex">
+                        <a (click)="display(1)">
+                            <div class="line-item">
+                                <p class="line"></p>
+                            </div>
+                            <div class="shift" *ngIf="isActive1">
+                                <p class="color-grey font-georgia nav-top-txt">I/IV</p>
+                                <p class="color-grey font-georgia nav-bottom-txt">Next Picture</p>
+                            </div>
+                        </a>
+                        <a (click)="display(2)">
+                            <div class="line-item">
+                                <p class="line"></p>
+                            </div>
+                            <div class="shift" *ngIf="isActive2">
+                                <p class="color-grey font-georgia nav-top-txt">II/IV</p>
+                                <p class="color-grey font-georgia nav-bottom-txt">Next Picture</p>
+                            </div>
+                        </a>
+                        <a (click)="display(3)">
+                            <div class="line-item">
+                                <p class="line"></p>
+                            </div>
+                            <div class="shift" *ngIf="isActive3">
+                                <p class="color-grey font-georgia nav-top-txt">III/IV</p>
+                                <p class="color-grey font-georgia nav-bottom-txt">Next Picture</p>
+                            </div>
+                        </a>
+                        <a (click)="display(4)">
+                            <div class="line-item">
+                                <p class="line"></p>
+                            </div>
+                            <div class="shift" *ngIf="isActive4">
+                                <p class="color-grey font-georgia nav-top-txt">IV/IV</p>
+                                <p class="color-grey font-georgia nav-bottom-txt">Next Picture</p>
+                            </div>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-section">
+        <p class="font-georgia f-15">Nigeria, Lagos <br/> <br/> Model</p>
+    </div>
+</div>

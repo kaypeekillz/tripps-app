@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { 
+    height: 100%; 
+    background-color: #FFFFFF; 
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body { 
+    margin: 0;
+    max-width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+.w-50 {
+    width: 50%;
+} 
+
+.w-100 {
+    width: 100%;
+}
+
+.color-grey {
+    color: #484646 !important;
+}
+
+.color-black {
+    color: #000;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.f-61 {
+    font-size: 61px;
+}
+
+.f-25 {
+    font-size: 25px;
+}
+
+.f-10 {
+    font-size: 10px;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-15 {
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.font-georgia {
+    font-family: Georgia;
+}
+

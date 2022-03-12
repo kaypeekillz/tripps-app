@@ -1,0 +1,9 @@
+<div class="main flex" [style.background-color]="colorCode">
+    <div class="left-section w-50">
+        <app-nav-section (sendData)="sendData($event)"></app-nav-section>
+    </div>
+
+    <div class="right-section w-50">
+        <app-img-section [imgUrl]="imgUrl"></app-img-section>
+    </div>
+</div>

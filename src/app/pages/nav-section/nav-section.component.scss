@@ -1,0 +1,161 @@
+.main {
+    width: 100%;
+    height: 88vh;
+}
+
+.top-section {
+    height: 83%;
+    background-color: #fff;
+}
+
+.inner {
+    padding: 20px;
+}
+
+.bottom-section {
+    height: 17%;
+    background-color: #000;
+    p {
+        line-height: 1.13;
+        color: #fff;
+        padding: 30px 35px 35px 40px;
+    }
+}
+
+.plus {
+    font-weight: 900;
+}
+
+
+.name-section {
+    padding: 100px 80px 100px 80px;
+}
+
+.name {
+    color: #141414;
+    margin-top: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+}
+
+.top-50 {
+    margin-top: 6rem;
+}
+
+.insta {
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    padding-left: 15px;
+}
+
+.nav-bottom-txt {
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 2.0;
+    letter-spacing: normal;
+    width: 130px;
+    text-align: center;
+    color: #484646;
+}
+
+.nav-top-txt {
+    font-size: 27px;
+    width: 130px;
+    text-align: center;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #141414;
+    border-bottom: 4px solid #1a191a;
+    // margin-bottom: 44px;
+}
+
+.nav-section {
+    margin-right: 80px;
+}
+
+.shift {
+    margin-top: -44px;
+}
+
+.line {
+    width: 130px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    color: #141414;
+    border-bottom: 1px solid #484646;
+}
+
+a {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    .main {
+        height: auto;
+    }
+
+    .name-section {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .name {
+        font-size: 35px;
+    }
+
+    .top-50 {
+        margin-top: 3rem;
+    }
+
+    .nav-parent {
+        display: block;
+    }
+
+    .insta {
+        padding: 40px !important;
+        text-align: center;
+        writing-mode: horizontal-tb;
+    }
+
+    nav {
+        margin: 0px !important;
+        display: block;
+    }
+
+    .nav-section {
+        margin: 0px;
+    }
+
+    .nav-top-txt {
+        // margin-top: 30px;
+        width: auto;
+    }
+
+    .nav-bottom-txt {
+        width: auto;
+    }
+
+    .line-item {
+        width: auto;
+        padding-left: 40%;
+        padding-right: 40%;
+    }
+
+    .line {
+        width: auto;
+    }
+
+    .shift {
+        width: auto;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+}

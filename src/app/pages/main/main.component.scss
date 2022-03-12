@@ -1,0 +1,35 @@
+.main {
+    height: 100vh;
+    // background-color: #543000;
+}
+
+.left-section {
+    margin: 50px 0px 50px 50px;
+}
+
+.right-section {
+    margin: 50px 50px 50px 0px;
+}
+
+@media screen and (max-width: 768px) { 
+    .main {
+        display: block;
+        padding: 30px;
+        height: auto;
+    }
+
+    .left-section {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .right-section {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .shift {
+        background-color: red !important;
+        // margin-top: 50px !important;
+    }
+}
